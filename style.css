@@ -1,0 +1,63 @@
+/* Thiết lập màu nền cho toàn bộ trang web */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8; /* Màu nền trang */
+    margin: 0;
+    padding: 50px;
+    color: #333333;
+}
+
+/* Khung chứa chung */
+.main-container {
+    max-width: 700px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555555;
+}
+
+/* Định dạng khối div chứa ảnh nền */
+.banner-box {
+    /* Sử dụng ảnh nền mẫu từ Unsplash (bạn có thể thay thế bằng link ảnh bất kỳ hoặc tên file ảnh cục bộ) */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80');
+    background-size: cover;
+    background-position: center;
+    
+    /* Thiết lập kích thước và căn giữa nội dung */
+    width: 100%;
+    min-height: 200px;
+    margin-top: 30px;
+    border-radius: 8px;
+    
+    /* Căn giữa chữ trong khối */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.banner-box h2 {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+}
+
+.banner-box p {
+    margin: 0;
+    color: #f1f1f1;
+}
